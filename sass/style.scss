@@ -58,6 +58,7 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: 96px;
   }
 
   .header-inner {
@@ -80,5 +81,13 @@ body {
         margin-bottom: 70px;
     }
     
+  }
+
+  .services-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
   }
 
