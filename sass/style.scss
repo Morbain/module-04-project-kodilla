@@ -1,0 +1,84 @@
+$font-one: 'Montserrat', sans-serif;
+$font-second: 'Edu QLD Beginner', cursive;
+
+
+
+body {
+    color: black;
+    font-family: $font-one;
+}
+
+.btn {
+    background: #fed136;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+  }
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    margin: 30px 0 0 180px
+}
+
+.navbar-list {
+    margin-right: 180px;
+}
+
+.navbar-list ul li {
+    display: inline-block;
+
+    a {
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 0 20px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/5380596/pexels-photo-5380596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .header-inner {
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-size: 54px;
+        font-weight: 700;
+    }
+
+    span {
+        font-weight: 600;
+        font-family: $font-second;
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 600;
+        margin-bottom: 70px;
+    }
+    
+  }
+

@@ -1,0 +1,75 @@
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  background: #fed136;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  margin: 30px 0 0 180px;
+}
+
+.navbar-list {
+  margin-right: 180px;
+}
+
+.navbar-list ul li {
+  display: inline-block;
+}
+.navbar-list ul li a {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/5380596/pexels-photo-5380596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-inner {
+  color: white;
+  text-align: center;
+}
+.header-inner h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.header-inner span {
+  font-weight: 600;
+  font-family: "Edu QLD Beginner", cursive;
+  font-size: 40px;
+}
+.header-inner p {
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLQTtFQUNJLFlBQUE7RUFDQSxxQ0FQTztBQ0dYOztBRE9BO0VBQ0ksbUJBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0pKOztBRE9BO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtBQ0pKOztBRE9BO0VBQ0ksYUFBQTtFQUNBLDhCQUFBO0FDSko7O0FET0E7RUFDSSxzQkFBQTtBQ0pKOztBRE9BO0VBQ0ksbUJBQUE7QUNKSjs7QURPQTtFQUNJLHFCQUFBO0FDSko7QURNSTtFQUNJLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0FDSlI7O0FEUUE7RUFDSSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0Esd0lBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7QUNMSjs7QURRRTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtBQ0xKO0FET0k7RUFDSSxlQUFBO0VBQ0EsZ0JBQUE7QUNMUjtBRFFJO0VBQ0ksZ0JBQUE7RUFDQSx3Q0F4RU07RUF5RU4sZUFBQTtBQ05SO0FEU0k7RUFDSSxnQkFBQTtFQUNBLG1CQUFBO0FDUFIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
