@@ -228,3 +228,14 @@ body {
 .footer ul {
     padding-top: 12px;
 }
+
+@media (max-width: 1040px) {
+
+    .navbar-list {
+        display: none;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+}
