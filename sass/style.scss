@@ -194,12 +194,13 @@ body {
     
     li {
         display: inline-block;
-        padding: 10px;
+        padding: 6px;
         color: white;
     }
 
     span {
         font-size: 12px;
+        ;
     }
 
     i {
@@ -212,5 +213,5 @@ body {
 }
 
 .footer ul {
-    line-height: 50px;
+    padding-top: 12px;
 }
