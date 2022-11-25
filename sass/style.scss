@@ -52,6 +52,19 @@ body {
     }
 }
 
+.navbar-logo {
+
+    margin-top: 5px;
+
+    p {
+        color: #fed136;
+        font-family: $font-second;
+        font-size: 36px;
+        font-weight: 600;
+
+    }
+}
+
 .header {
     display: flex;
     justify-content: center;
