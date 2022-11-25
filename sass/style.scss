@@ -97,6 +97,11 @@ body {
      h2 {
         font-weight: 700;
      }
+
+     span {
+        font-style: italic;
+        font-size: 14px;
+     }
   }
 
   .services {
@@ -141,6 +146,7 @@ body {
   .card {
     border: none;
     width: 280px;
+    margin-bottom: 40px;
 }
 
 .card-body {
@@ -171,4 +177,9 @@ body {
 .card-box {
     display: flex;
     justify-content: center;
+}
+
+.portfolio {
+    padding-top: 96px;
+    background: #f7f7f7;
 }
