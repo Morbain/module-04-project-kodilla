@@ -185,3 +185,32 @@ body {
     padding-bottom: 96px;
     background: #f7f7f7;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    
+    li {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    i {
+        background: black;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        padding: 8px;
+    }
+}
+
+.footer ul {
+    line-height: 50px;
+}
